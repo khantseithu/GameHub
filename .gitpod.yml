@@ -1,4 +1,3 @@
-
 tasks:
   - init: npm install && npm run build
     command: npm run dev
@@ -9,7 +8,6 @@ ports:
     visibility: public
     onOpen: open-browser
 
-
 vscode:
   extensions:
-    - GitHub.vscode-pull-request-githubare the goodness with others.
+    - GitHub.vscode-pull-request-github
